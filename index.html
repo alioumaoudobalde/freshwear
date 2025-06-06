@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Footwear 25 - Nettoyage Professionnel de Sneakers</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <a href="#accueil" class="logo">
+            <img src="images/logo.png" alt="Fresh Footwear - Retour à l'accueil" class="logo-image">
+            <span class="logo-text">Fresh Footwear</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#about">À Propos</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#galerie">Galerie</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-toggle">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </div>
+        </nav>
+    </header>
+<main>
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Fresh Footwear</h1>
+                    <p>Donne une nouvelle vie à tes baskets !</p>
+                    <a href="https://wa.me/33767811647" class="cta-button">
+                        <i class="fab fa-whatsapp"></i> Réserver maintenant
+                    </a>
+                </div>
+                <div class="hero-images">
+                    <div class="image-container">
+                        <img src="images/before.jpg" alt="Avant nettoyage" class="sneaker-image active" id="image1">
+                        <img src="images/after.jpg" alt="Après nettoyage" class="sneaker-image" id="image2">
+                        <div class="image-overlay">
+                            <span class="image-label" id="imageLabel">AVANT</span>
+                        </div>
+                        <div class="slider-control">
+                            <button class="slide-btn" id="slideBtn">
+                                <i class="fas fa-exchange-alt"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- LA SECTION ABOUT (après la section hero) -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">À Propos de Fresh Footwear</h2>
+                    <p class="intro-text">
+                        Passionnés par l'univers de la sneaker et forts de plusieurs années d'expérience, 
+                        nous avons créé Fresh Footwear pour offrir un service de nettoyage professionnel 
+                        qui redonne vie à vos baskets préférées.
+                    </p>
+                    <div class="expandable-content" id="expandableContent">
+                        <p>
+                            Notre expertise technique combinée à l'utilisation de produits professionnels 
+                            haut de gamme nous permet de traiter tous types de matériaux : cuir, daim, 
+                            toile, mesh ou synthétique. Chaque paire est traitée avec le plus grand soin, 
+                            selon des protocoles spécifiques adaptés à sa composition.
+                        </p>
+                        <p>
+                            Nous croyons que chaque sneaker a une histoire et mérite d'être préservée. 
+                            C'est pourquoi nous mettons tout notre savoir-faire au service de vos baskets, 
+                            qu'elles soient vintage, limitées ou du quotidien. Notre mission : leur redonner 
+                            leur éclat d'origine tout en respectant leur authenticité.
+                        </p>
+                        <p>
+                            Basés dans le département du Doubs (25), nous sommes fiers de proposer un service 
+                            local de qualité, avec la possibilité de récupération et livraison pour votre 
+                            plus grand confort.
+                        </p>
+                    </div>
+                    <button class="read-more-btn" id="readMoreBtn">
+                        <span>En savoir plus</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                </div>
+                <div class="about-features">
+                    <div class="feature-item">
+                        <i class="fas fa-award"></i>
+                        <h4>Expertise Professionnelle</h4>
+                        <p>Techniques avancées et produits premium</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-leaf"></i>
+                        <h4>Produits Éco-Responsables</h4>
+                        <p>Respect de l'environnement et de vos sneakers</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-clock"></i>
+                        <h4>Service Rapide</h4>
+                        <p>Récupération et livraison sous 48h</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Nos Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-spray-can"></i>
+                    </div>
+                    <h3>Nettoyage Standard</h3>
+                    <p>Nettoyage complet de vos sneakers avec des produits professionnels. Redonnez de l'éclat à vos baskets préférées.</p>
+                    <div class="service-price">15€</div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Nettoyage Premium</h3>
+                    <p>Service complet avec traitement anti-taches, protection et finition premium. Le top du nettoyage professionnel.</p>
+                    <div class="service-price">25€</div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3>Détachage Spécialisé</h3>
+                    <p>Élimination des taches les plus tenaces avec des techniques avancées. Vos sneakers retrouvent leur état d'origine.</p>
+                    <div class="service-price">20€</div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shoe-prints"></i>
+                    </div>
+                    <h3>Rénovation Semelle</h3>
+                    <p>Nettoyage et blanchiment des semelles. Redonnez de la fraîcheur à vos semelles jaunies ou tachées.</p>
+                    <div class="service-price">12€</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. MODIFIER LA SECTION GALERIE (remplacer l'ancienne) -->
+    <section id="galerie" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Nos Réalisations</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+                    <img src="images/pic1.jpg" alt="Nettoyage sneaker 1" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h4>Air Jordan 1</h4>
+                            <p>Nettoyage Premium</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+                    <img src="images/pic03.jpg" alt="Nettoyage sneaker 2" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h4>Nike Air Force 1</h4>
+                            <p>Détachage Spécialisé</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="300">
+                    <img src="images/pic7.jpg" alt="Nettoyage sneaker 3" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h4>Adidas Yeezy</h4>
+                            <p>Nettoyage Standard</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="400">
+                    <img src="images/pic4.jpg" alt="Nettoyage sneaker 4" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h4>Converse Chuck</h4>
+                            <p>Rénovation Semelle</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="500">
+                    <img src="images/pic3.jpg" alt="Nettoyage sneaker 5" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h4>New Balance 990</h4>
+                            <p>Nettoyage Premium</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="600">
+                    <img src="images/pic8.jpg" alt="Nettoyage sneaker 6" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h4>Vans Old Skool</h4>
+                            <p>Détachage Spécialisé</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="https://instagram.com/fresh_footwear25" class="instagram-button">
+                <i class="fab fa-instagram"></i> Voir plus sur Instagram
+            </a>
+        </div>
+    </section>
+    
+     <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contactez-nous</h2>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Nom complet</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="service">Service souhaité</label>
+                    <select id="service" name="service" required>
+                        <option value="" disabled selected>Choisissez un service</option>
+                        <option value="standard">Nettoyage Standard</option>
+                        <option value="premium">Nettoyage Premium</option>
+                        <option value="detachage">Détachage Spécialisé</option>
+                        <option value="renovation">Rénovation Semelle</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Décrivez votre demande..." required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Envoyer le message</button>
+            </form>
+        </div>
+    </section>
+</main>
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/33123456789" class="whatsapp-button" title="Contactez-nous sur WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Fresh Footwear 25</h3>
+                    <p>Spécialiste du nettoyage professionnel de sneakers. Redonnez vie à vos baskets avec notre expertise.</p>
+                </div> 
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-phone"></i> +33 1 23 45 67 89</p>
+                    <p><i class="fas fa-envelope"></i> contact@freshfootwear25.fr</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Paris, France</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Suivez-nous</h3>
+                    <div class="social-links">
+                        <a href="https://instagram.com/fresh_footwear25"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/33123456789"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div style="border-top: 1px solid #333; padding-top: 2rem; margin-top: 2rem;">
+                <p>&copy; 2025 Fresh Footwear 25. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+<script src="scripts.js"></script>
+</body>
+</html>
